@@ -27,7 +27,7 @@ module bolt_triangle() {
 
 module effector() {
 	difference() {
-		cylinder(d=65,h=material_thickness,center=true6);
+		cylinder(d=65,h=material_thickness,center=true);
 		translate([0,0,-1])
 			cylinder(d=center_hole_diameter,h=material_thickness+2);
 		bolt_triangle();
